@@ -1,16 +1,18 @@
+
+</h1>
+
 <p align="center">
-  <img src="imagens/fecap.png" alt="Logo FECAP" height="60px">
+  <img src="imagens/fecap.PNG" alt="Logo FECAP" height="60px">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="imagens/asa.png" alt="Logo ASA" height="60px">
 </p>
 
 <div align="center">
 
-<h1> SecretarIA</h1>
-
 <p align="center">
   <img src="imagens/logo_secretaria.png" alt="Logo SecretarIA" width="380px">
 </p>
+<h1> SecretarIA</h1>
 
 ### <i>Conectando Estudantes e Equipe ASA através da Inteligência Artificial</i>
 
@@ -23,21 +25,20 @@
 <b>Solução desenvolvida pelo Grupo SecretarIA para a Área do Sucesso Alvarista</b><br>
 <a href="https://github.com/2026-2-NCC5/Projeto9">Repositório Oficial</a>
 
-<br><br>
+<h3 align="center">💻 Desenvolvedoras</h3>
 
-<p align="center">
-  <img src="imagens/nicolly.png" alt="Nicolly Silva Soares" width="110px" height="110px" style="border-radius: 50%; object-fit: cover;">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="imagens/fernanda.png" alt="Fernanda Loura" width="110px" height="110px" style="border-radius: 50%; object-fit: cover;">
-</p>
-
-<p align="center">
-  <b>Nicolly Silva Soares</b>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Fernanda Loura</b>
-</p>
-
-</div>
+<table align="center">
+  <tr>
+    <td align="center" width="180">
+      <img src="imagens/nicolly.png" alt="Nicolly Silva Soares" width="140" height="140" style="border-radius: 50%; object-fit: cover;"><br><br>
+      <b>Nicolly Silva Soares</b>
+    </td>
+    <td align="center" width="180">
+      <img src="imagens/fernanda.png" alt="Fernanda Loura" width="140" height="140" style="border-radius: 50%; object-fit: cover;"><br><br>
+      <b>Fernanda Loura</b>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -78,18 +79,19 @@ A **Área do Sucesso Alvarista (ASA)** centraliza o acolhimento, orientação e 
      └───────────────────────────────────────┘
 ```
 
+</div>
+
 ---
 
 ## 🎯 O que o SecretarIA resolve?
 
-O **SecretarIA** ataca os gargalos críticos no atendimento acadêmico e operacional da **Área do Sucesso Alvarista (ASA)** na FECAP:
+O **SecretarIA** ataca os gargalos críticos no atendimento acadêmico e operacional da **Área do Sucesso Alvarista (ASA)** na **FECAP**:
 
-* **Informação Espalhada e Burocrática:** Elimina a necessidade de o estudante ler manuais e PDFs extensos de 10 páginas para tirar dúvidas simples.
-* **Inconsistência nas Respostas:** Evita orientações divergentes entre diferentes canais ou atendentes, centralizando a consulta em uma única **Base de Conhecimento Oficial**.
-* **Filas e Lentidão no Atendimento:** Reduz o tempo de espera através de um autoatendimento instantâneo 24/7 para dúvidas recorrentes.
-* **Respostas Genéricas:** Conecta a dúvida ao perfil do estudante (via simulação/mock do **TOTVS**), fornecendo orientações direcionadas à situação real do aluno.
-* **Sobrecarga da Equipe do ASA:** Filtra chamados repetitivos, permitindo que os atendentes e especialistas foquem nos casos mais complexos.
-
+- **Informação Espalhada e Burocrática:** Elimina a necessidade de o estudante ler manuais e PDFs extensos de 10 páginas para tirar dúvidas simples.
+- **Inconsistência nas Respostas:** Evita orientações divergentes entre diferentes canais ou atendentes, centralizando a consulta em uma única **Base de Conhecimento Oficial**.
+- **Filas e Lentidão no Atendimento:** Reduz o tempo de espera através de um autoatendimento instantâneo 24/7 para dúvidas recorrentes.
+- **Respostas Genéricas:** Conecta a dúvida ao perfil do estudante (via simulação/mock do TOTVS), fornecendo orientações direcionadas à situação real do aluno.
+- **Sobrecarga da Equipe do ASA:** Filtra chamados repetitivos, permitindo que os atendentes e especialistas foquem nos casos mais complexos.
 ---
 
 ## Por que deve-se usar o SecretarIA?
@@ -106,9 +108,9 @@ O **SecretarIA** ataca os gargalos críticos no atendimento acadêmico e operaci
 ## ⚙️ Como rodar o projeto / Configuração para desenvolvimento
 
 ### 📋 Pré-requisitos
-* **Python 3.10+** (para o Backend e serviços de IA)
-* **Node.js 18+** (para o Frontend)
-* **Git** instalado no ambiente local
+ **Python 3.10+** (para o Backend e serviços de IA)
+ **Node.js 18+** (para o Frontend)
+ **Git** instalado no ambiente local
 
 ### Passo a Passo
 
