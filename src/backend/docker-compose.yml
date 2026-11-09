@@ -1,0 +1,89 @@
+# ==============================================================================
+# FECAP Guia — Docker Compose Sanitizado (Submissão Acadêmica)
+# ==============================================================================
+# Este arquivo é uma versão sanitizada para auditoria e submissão acadêmica.
+# Não contém credenciais fixas (hardcoded passwords) e utiliza variáveis de ambiente.
+# ==============================================================================
+
+services:
+  # ----- Banco de dados PostgreSQL (Opcional / Produção: --profile prod) -----
+  db:
+    image: postgres:15-alpine
+    container_name: fecap_guia_db
+    profiles: ["prod"]
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-fecap_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-fecap_guia}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    networks:
+      - fecap_net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-fecap_user} -d ${POSTGRES_DB:-fecap_guia}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ----- Backend FastAPI + SQLite + ChromaDB + MiniLM -----
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: fecap_guia_backend
+    restart: unless-stopped
+    env_file:
+      - path: ./.env
+        required: false
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-sqlite:///./fecap_guia.db}
+      CHROMA_PERSIST_DIRECTORY: ${CHROMA_PERSIST_DIRECTORY:-./chroma_db}
+      CHROMA_COLLECTION_NAME: ${CHROMA_COLLECTION_NAME:-fecap_knowledge}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-all-MiniLM-L6-v2}
+      EMBEDDING_DEVICE: ${EMBEDDING_DEVICE:-cpu}
+      LLM_MODE: ${LLM_MODE:-demo}
+      BACKEND_CORS_ORIGINS: ${BACKEND_CORS_ORIGINS:-http://localhost:5173,http://127.0.0.1:5173}
+    volumes:
+      - ./backend:/app
+      - ./knowledge_base:/app/knowledge_base:ro
+      - ./tests:/tests
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    networks:
+      - fecap_net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+  # ----- Frontend React (Nginx) -----
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: ${VITE_API_URL:-http://localhost:8000}
+    container_name: fecap_guia_frontend
+    restart: unless-stopped
+    environment:
+      VITE_API_URL: ${VITE_API_URL:-http://localhost:8000}
+    ports:
+      - "${FRONTEND_PORT:-5173}:5173"
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - fecap_net
+
+networks:
+  fecap_net:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  chroma_data:

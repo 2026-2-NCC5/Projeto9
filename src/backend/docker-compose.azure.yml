@@ -1,0 +1,90 @@
+# ==============================================================================
+# SecretarIA / FECAP Guia — Docker Compose para Implantação Azure (Sanitizado)
+# Máquina Virtual Alvo: vm-fecap-secretaria (Ubuntu 24.04 LTS)
+# ==============================================================================
+# NOTA DE AUDITORIA:
+# - Versão sanitizada e alinhada à implantação real executada na VM Azure.
+# - O ambiente opera exclusivamente em HTTP na porta 80 (sem certificado TLS/HTTPS
+#   ativo; portanto, a porta 443 não é publicada).
+# - O arquivo `./frontend/nginx.azure.conf` (incluído neste pacote em
+#   `05_Configuracoes/nginx.azure.conf`) realiza o proxy reverso de `/api/*` e
+#   `/health` para `http://backend:8000` pela rede privada `fecap_azure_net`.
+# ==============================================================================
+
+services:
+  # ----- Backend FastAPI + SQLite + ChromaDB + MiniLM (Rede Interna Privada) -----
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: fecap_guia_backend
+    restart: always
+    env_file:
+      - path: ./.env.azure
+        required: false
+    environment:
+      APP_ENV: ${APP_ENV:-production}
+      DEBUG: ${DEBUG:-false}
+      DATABASE_URL: ${DATABASE_URL:-sqlite:///./fecap_guia.db}
+      CHROMA_PERSIST_DIRECTORY: ${CHROMA_PERSIST_DIRECTORY:-./chroma_db}
+      CHROMA_COLLECTION_NAME: ${CHROMA_COLLECTION_NAME:-fecap_knowledge}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-all-MiniLM-L6-v2}
+      EMBEDDING_DEVICE: ${EMBEDDING_DEVICE:-cpu}
+      LLM_MODE: ${LLM_MODE:-demo}
+      BACKEND_CORS_ORIGINS: ${BACKEND_CORS_ORIGINS:-http://vm-fecap-secretaria.brazilsouth.cloudapp.azure.com,http://191.233.19.182}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    expose:
+      - "8000"
+    volumes:
+      - ./backend/fecap_guia.db:/app/fecap_guia.db
+      - ./backend/chroma_db:/app/chroma_db
+      - ./knowledge_base:/app/knowledge_base:ro
+      - ./backups:/backups
+    networks:
+      - fecap_azure_net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:8000/health"]
+      interval: 20s
+      timeout: 10s
+      retries: 5
+      start_period: 45s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  # ----- Gateway / Reverse Proxy Nginx + Frontend SPA React (HTTP Porta 80) -----
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: ""
+        NGINX_CONF: nginx.azure.conf
+    container_name: fecap_guia_frontend
+    restart: always
+    ports:
+      - "${HTTP_PORT:-80}:80"
+      # Porta 443 omitida: sem certificado TLS/HTTPS configurado no ambiente acadêmico
+    volumes:
+      - ./frontend/nginx.azure.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - fecap_azure_net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1/health"]
+      interval: 20s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+networks:
+  fecap_azure_net:
+    driver: bridge
