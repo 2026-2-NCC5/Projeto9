@@ -1,0 +1,320 @@
+﻿motivo_original,motivo_normalizado,categoria,regra_aplicada,revisar
+Abono ou Compensação de Faltas,Abono ou Compensação de Faltas,Vida Acadêmica e Avaliações,palavra-chave: 'falta',False
+DP/Adaptação indisponível no portfólio,DP/Adaptação indisponível no portfólio,Vida Acadêmica e Avaliações,palavra-chave: 'dp',False
+Entrega de documentos pendentes,Entrega de documentos pendentes,"Matrícula, Rematrícula e Trancamento",manual: pendência documental de matrícula,False
+Aconselhamento sobre Estágio Não Obrigatório,Aconselhamento sobre Estágio Não Obrigatório,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'estagio',False
+Entrega do Relatório de Estágio Supervisionado,Entrega do Relatório de Estágio Supervisionado,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'estagio',False
+Alteração de horário de provas (oficial e exame),Alteração de horário de provas (oficial e exame),Vida Acadêmica e Avaliações,palavra-chave: 'prova',False
+Restituições,Restituições,"Financeiro, Bolsas e Financiamento",palavra-chave: 'restitui',False
+Serviço Especial,Serviço Especial,__AMBIGUO__,manual: rótulo genérico sem assunto identificável,True
+Certificado de Conclusão,Certificado de Conclusão,Documentação Acadêmica,palavra-chave: 'certificado',False
+Pagamento à Vista da Semestralidade,Pagamento à Vista da Semestralidade,"Financeiro, Bolsas e Financiamento",palavra-chave: 'pagamento',False
+Dificuldades para realização de Provas Oficiais/Exame On-line (Obsoleto),Dificuldades para realização de Provas Oficiais/Exame On-line,Portal e Sistemas,palavra-chave: 'on-line',False
+Ajustes de Bolsas de Estudos,Ajustes de Bolsas de Estudos,"Financeiro, Bolsas e Financiamento",palavra-chave: 'bolsa',False
+Devolução/Reembolsos de pagamentos (Obsoleto),Devolução/Reembolsos de pagamentos,"Financeiro, Bolsas e Financiamento",palavra-chave: 'reembols',False
+Cadastro de atividade complementar,Cadastro de atividade complementar,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'atividade complementar',False
+Estágio: Entrega de Documentação - INATIVO (Obsoleto),Estágio: Entrega de Documentação,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'estagio',False
+Rematrícula,Rematrícula,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'rematricula',False
+Cursar apenas DP/Adaptação,Cursar apenas DP/Adaptação,Vida Acadêmica e Avaliações,palavra-chave: 'dp',False
+Histórico Escolar (Risco de Evasão),Histórico Escolar (Risco de Evasão),Documentação Acadêmica,manual: histórico escolar,False
+Antecipação de disciplinas,Antecipação de disciplinas,Vida Acadêmica e Avaliações,palavra-chave: 'disciplina',False
+Ajustes de rematrícula indisponível,Ajustes de rematrícula indisponível,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'rematricula',False
+Diploma,Diploma,Documentação Acadêmica,palavra-chave: 'diploma',False
+Informações sobre Moodle,Informações sobre Moodle,Portal e Sistemas,palavra-chave: 'moodle',False
+Histórico Escolar (Solicitação de Aluno),Histórico Escolar (Solicitação de Aluno),Documentação Acadêmica,palavra-chave: 'historico escolar',False
+Cancelamento de Curso,Cancelamento de Curso,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'cancelamento de curso',False
+Rescisão de Contrato de Estágio,Rescisão de Contrato de Estágio,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'estagio',False
+Solicitação de Transferência de Instituição,Solicitação de Transferência de Instituição,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'transferencia',False
+Termo Aditivo de Estágio,Termo Aditivo de Estágio,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'estagio',False
+Disciplinas em Inglês - Equivalência de Disciplina Eletiva,Disciplinas em Inglês - Equivalência de Disciplina Eletiva,Vida Acadêmica e Avaliações,palavra-chave: 'disciplina',False
+Lançamento de Notas Pendentes (Obsoleto),Lançamento de Notas Pendentes,Vida Acadêmica e Avaliações,palavra-chave: 'nota',False
+Carta de quitação de débito,Carta de quitação de débito,"Financeiro, Bolsas e Financiamento",palavra-chave: 'debito',False
+Atestado de Conclusão,Atestado de Conclusão,Documentação Acadêmica,palavra-chave: 'atestado',False
+Conteúdo programático,Conteúdo programático,Vida Acadêmica e Avaliações,palavra-chave: 'conteudo programatico',False
+Ajuste de Boletos,Ajuste de Boletos,"Financeiro, Bolsas e Financiamento",palavra-chave: 'boleto',False
+Transferência interna de curso (Turmas a partir de 2o semestres) (Obsoleto),Transferência interna de curso (Turmas a partir de 2o semestres),"Matrícula, Rematrícula e Trancamento",palavra-chave: 'transferencia',False
+Análise de grade,Análise de grade,Vida Acadêmica e Avaliações,palavra-chave: 'grade',False
+Critério de avaliação,Critério de avaliação,Vida Acadêmica e Avaliações,palavra-chave: 'criterio de avaliacao',False
+Vista de Prova de Exame,Vista de Prova de Exame,Vida Acadêmica e Avaliações,palavra-chave: 'prova',False
+Atestado de Matrícula,Atestado de Matrícula,Documentação Acadêmica,palavra-chave: 'atestado',False
+Solicitação de Boleto,Solicitação de Boleto,"Financeiro, Bolsas e Financiamento",palavra-chave: 'boleto',False
+Empréstimo entre Bibliotecas,Empréstimo entre Bibliotecas,Atendimento Geral e Serviços do Campus,palavra-chave: 'biblioteca',False
+Pagamentos de Mensalidade,Pagamentos de Mensalidade,"Financeiro, Bolsas e Financiamento",palavra-chave: 'mensalidade',False
+2ª via de boletos (Sem Encargos),2ª via de boletos (Sem Encargos),"Financeiro, Bolsas e Financiamento",palavra-chave: 'boleto',False
+Abertura de comissão de ética,Abertura de comissão de ética,__AMBIGUO__,"manual: processo disciplinar, fora do escopo de orientação",True
+Transferência de turno,Transferência de turno,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'transferencia',False
+Trancamento de DP/ADAPT,Trancamento de DP/ADAPT,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'trancamento',False
+Cadastro das parcelas de DP/Adaptação,Cadastro das parcelas de DP/Adaptação,"Financeiro, Bolsas e Financiamento",palavra-chave: 'parcela',False
+Solicitação de Bilhete Único do Estudante Ingressante,Solicitação de Bilhete Único do Estudante Ingressante,Carteirinha e Transporte,palavra-chave: 'bilhete unico',False
+Inclusão no Nivelamento,Inclusão no Nivelamento,Vida Acadêmica e Avaliações,palavra-chave: 'nivelamento',False
+Confecção da carteirinha da FECAP,Confecção da carteirinha da FECAP,Carteirinha e Transporte,palavra-chave: 'carteirinha',False
+Bolsa Desempenho Acadêmico (Bolsa Melhores Alunos),Bolsa Desempenho Acadêmico (Bolsa Melhores Alunos),"Financeiro, Bolsas e Financiamento",palavra-chave: 'bolsa',False
+Ajuste de Ponderação,Ajuste de Ponderação,Vida Acadêmica e Avaliações,manual: ponderação de notas,False
+Negociação terceirizada,Negociação terceirizada,"Financeiro, Bolsas e Financiamento",palavra-chave: 'negociacao',False
+Transferência interna de curso (Turmas do 1º semestre),Transferência interna de curso (Turmas do 1º semestre),"Matrícula, Rematrícula e Trancamento",palavra-chave: 'transferencia',False
+Cópia de documentos do prontuário,Cópia de documentos do prontuário,Documentação Acadêmica,palavra-chave: 'prontuario',False
+Acesso à Biblioteca Virtual Cengage,Acesso à Biblioteca Virtual Cengage,Atendimento Geral e Serviços do Campus,palavra-chave: 'biblioteca',False
+Trancamento do Curso,Trancamento do Curso,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'trancamento',False
+Acesso ao e-mail FECAP,Acesso ao e-mail FECAP,Portal e Sistemas,palavra-chave: 'e-mail',False
+Confecção da Carteirinha - 2ª Via,Confecção da Carteirinha - 2ª Via,Carteirinha e Transporte,palavra-chave: 'carteirinha',False
+Dispensa de disciplina,Dispensa de disciplina,Vida Acadêmica e Avaliações,palavra-chave: 'dispensa',False
+Alteração de dados cadastrais,Alteração de dados cadastrais,Atendimento Geral e Serviços do Campus,manual: cadastro,False
+PEDP | Revisão de Notas/Provas,PEDP | Revisão de Notas/Provas,Vida Acadêmica e Avaliações,palavra-chave: 'prova',False
+Suporte para Impressão,Suporte para Impressão,Portal e Sistemas,manual: serviço de TI,False
+Alteração de Contrato de Prestação de Serviços,Alteração de Contrato de Prestação de Serviços,"Financeiro, Bolsas e Financiamento",palavra-chave: 'contrato de prestacao',False
+Bolsa Iniciação Científica,Bolsa Iniciação Científica,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'iniciacao cientifica',False
+Termo de Autorização de Entrada de Visitantes,Termo de Autorização de Entrada de Visitantes,Atendimento Geral e Serviços do Campus,palavra-chave: 'visitantes',False
+Nota não lançada,Nota não lançada,Vida Acadêmica e Avaliações,palavra-chave: 'nota',False
+Alteração de Responsável Financeiro,Alteração de Responsável Financeiro,"Financeiro, Bolsas e Financiamento",palavra-chave: 'responsavel financeiro',False
+Alteração do horário do PEDP,Alteração do horário do PEDP,Vida Acadêmica e Avaliações,palavra-chave: 'pedp',False
+Cancelamento de parcelas,Cancelamento de parcelas,"Financeiro, Bolsas e Financiamento",palavra-chave: 'parcela',False
+Prouni: Atualização,Prouni: Atualização,"Financeiro, Bolsas e Financiamento",palavra-chave: 'prouni',False
+Ajustes por sobreposições de disciplinas,Ajustes por sobreposições de disciplinas,Vida Acadêmica e Avaliações,palavra-chave: 'disciplina',False
+Cursos de Extensão | Abono de valores em novo curso (Obsoleto),Cursos de Extensão | Abono de valores em novo curso,"Financeiro, Bolsas e Financiamento",palavra-chave: 'abono de valores',False
+Acesso ao Portal do Aluno,Acesso ao Portal do Aluno,Portal e Sistemas,palavra-chave: 'portal',False
+Boleto não registrado,Boleto não registrado,"Financeiro, Bolsas e Financiamento",palavra-chave: 'boleto',False
+Nivelamento,Nivelamento,Vida Acadêmica e Avaliações,palavra-chave: 'nivelamento',False
+Rematrícula fora de Época,Rematrícula fora de Época,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'rematricula',False
+Negociação On-line,Negociação On-line,"Financeiro, Bolsas e Financiamento",palavra-chave: 'negociacao',False
+Agenda dos Plantões de Dúvidas - Monitoria e Laboratório de Métodos Quantitativos,Agenda dos Plantões de Dúvidas - Monitoria e Laboratório de Métodos Quantitativos,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'monitoria',False
+Dificuldades Acadêmicas no Moodle,Dificuldades Acadêmicas no Moodle,Portal e Sistemas,palavra-chave: 'moodle',False
+Relatório de Desempenho Semestral de Estágio,Relatório de Desempenho Semestral de Estágio,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'estagio',False
+Atestado Personalizado,Atestado Personalizado,Documentação Acadêmica,palavra-chave: 'atestado',False
+Disciplina Indisponível no Moodle,Disciplina Indisponível no Moodle,Portal e Sistemas,palavra-chave: 'moodle',False
+Comprovante de restrição religiosa,Comprovante de restrição religiosa,Documentação Acadêmica,palavra-chave: 'comprovante',False
+FIES - Encerramento,FIES - Encerramento,"Financeiro, Bolsas e Financiamento",palavra-chave: 'fies',False
+Demonstrativo de Pagamento (IR) (Obsoleto),Demonstrativo de Pagamento (IR),"Financeiro, Bolsas e Financiamento",palavra-chave: 'pagamento',False
+Reagendamento de provas por sobreposições de horários,Reagendamento de provas por sobreposições de horários,Vida Acadêmica e Avaliações,palavra-chave: 'prova',False
+Acesso ao Moodle,Acesso ao Moodle,Portal e Sistemas,palavra-chave: 'moodle',False
+Prouni: Concessão,Prouni: Concessão,"Financeiro, Bolsas e Financiamento",palavra-chave: 'prouni',False
+Aconselhamento de Carreira,Aconselhamento de Carreira,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'carreira',False
+Nome não consta na Lista de Presença,Nome não consta na Lista de Presença,Vida Acadêmica e Avaliações,palavra-chave: 'lista de presenca',False
+Alteração de Vencimento das Mensalidades,Alteração de Vencimento das Mensalidades,"Financeiro, Bolsas e Financiamento",palavra-chave: 'mensalidade',False
+Informações sobre início das aulas - Espaços Disponíveis no Campus,Informações sobre início das aulas - Espaços Disponíveis no Campus,Atendimento Geral e Serviços do Campus,palavra-chave: 'inicio das aulas',False
+Antecipação de Parcelas,Antecipação de Parcelas,"Financeiro, Bolsas e Financiamento",palavra-chave: 'parcela',False
+Programa de Bolsa Restituível - Adesão,Programa de Bolsa Restituível - Adesão,"Financeiro, Bolsas e Financiamento",palavra-chave: 'restitui',False
+Programa de Bolsa Restituível - Renovação,Programa de Bolsa Restituível - Renovação,"Financeiro, Bolsas e Financiamento",palavra-chave: 'restitui',False
+Acesso a vagas - FECAP+ Oportunidades,Acesso a vagas - FECAP+ Oportunidades,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'fecap+ oportunidades',False
+Assinatura da Secretária Acadêmica em documentos diversos (Obsoleto),Assinatura da Secretária Acadêmica em documentos diversos,Documentação Acadêmica,palavra-chave: 'documentos',False
+Crachá - resolução de problemas,Crachá - resolução de problemas,Carteirinha e Transporte,palavra-chave: 'cracha',False
+Inscrições PEDP (fora do prazo),Inscrições PEDP (fora do prazo),Vida Acadêmica e Avaliações,palavra-chave: 'pedp',False
+Diploma Impresso,Diploma Impresso,Documentação Acadêmica,palavra-chave: 'diploma',False
+Reanálise de Grade,Reanálise de Grade,Vida Acadêmica e Avaliações,palavra-chave: 'grade',False
+Solicitação de Bilhete Único Estudantil (Passe Livre) para estudantes FIES,Solicitação de Bilhete Único Estudantil (Passe Livre) para estudantes FIES,Carteirinha e Transporte,palavra-chave: 'bilhete unico',False
+ProUni: Reconsideração do Usufruto da Bolsa,ProUni: Reconsideração do Usufruto da Bolsa,"Financeiro, Bolsas e Financiamento",palavra-chave: 'bolsa',False
+Destrancamento de Curso,Destrancamento de Curso,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'destrancamento',False
+Coach Acadêmico,Coach Acadêmico,Atendimento Geral e Serviços do Campus,manual: apoio ao estudante,False
+Solicitação do Bilhete Único Estudantil (Passe Livre) para bolsistas ProUni Integral,Solicitação do Bilhete Único Estudantil (Passe Livre) para bolsistas ProUni Integral,Carteirinha e Transporte,palavra-chave: 'bilhete unico',False
+Reserva de Sala,Reserva de Sala,Atendimento Geral e Serviços do Campus,palavra-chave: 'reserva',False
+Reserva de Co-labs,Reserva de Co-labs,Atendimento Geral e Serviços do Campus,palavra-chave: 'reserva',False
+Sistema de Achados e Perdidos,Sistema de Achados e Perdidos,Atendimento Geral e Serviços do Campus,manual: serviço do campus,False
+Solicitação do Bilhete Único Estudantil (Passe Livre) para bolsistas ProUni Parcial,Solicitação do Bilhete Único Estudantil (Passe Livre) para bolsistas ProUni Parcial,Carteirinha e Transporte,palavra-chave: 'bilhete unico',False
+Coach Holístico,Coach Holístico,Atendimento Geral e Serviços do Campus,palavra-chave: 'coach',False
+Destrancamento de DP e adaptação,Destrancamento de DP e adaptação,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'destrancamento',False
+Atestado de Comparecimento,Atestado de Comparecimento,Documentação Acadêmica,palavra-chave: 'atestado',False
+Eventos - Apoio com Representante do Marketing,Eventos - Apoio com Representante do Marketing,Atendimento Geral e Serviços do Campus,palavra-chave: 'evento',False
+Reserva de Sala de Vídeo,Reserva de Sala de Vídeo,Atendimento Geral e Serviços do Campus,palavra-chave: 'reserva',False
+Afastamento - Licença Maternidade,Afastamento - Licença Maternidade,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'afastamento',False
+Renovação de Materiais,Renovação de Materiais,Atendimento Geral e Serviços do Campus,palavra-chave: 'materiais',False
+Abatimento de valores de Disciplinas em Inglês,Abatimento de valores de Disciplinas em Inglês,"Financeiro, Bolsas e Financiamento",manual: abatimento de valor,False
+Correção de Dados em Certificados de Cursos (Obsoleto),Correção de Dados em Certificados de Cursos,Documentação Acadêmica,palavra-chave: 'certificado',False
+Orientação para Desenvolvimento do Linkedin,Orientação para Desenvolvimento do Linkedin,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'linkedin',False
+"Alteração do status da disciplina para ""A Cursar""","Alteração do status da disciplina para ""A Cursar""",Vida Acadêmica e Avaliações,palavra-chave: 'disciplina',False
+"Suporte para uso de Laboratórios de Informática (Disponibilidade, Softwares disponíveis)","Suporte para uso de Laboratórios de Informática (Disponibilidade, Softwares disponíveis)",Portal e Sistemas,palavra-chave: 'laboratorios de informatica',False
+Informações sobre Acesso ao Portal de Aluno,Informações sobre Acesso ao Portal de Aluno,Portal e Sistemas,palavra-chave: 'portal',False
+Disciplinas em Inglês - Validação de Horas Complementares,Disciplinas em Inglês - Validação de Horas Complementares,"Estágio, Carreira e Atividades Complementares",manual: validação de horas complementares,False
+Suporte ao uso local de computadores (Laboratórios de Informática ou Co-labs),Suporte ao uso local de computadores (Laboratórios de Informática ou Co-labs),Portal e Sistemas,palavra-chave: 'laboratorios de informatica',False
+Acesso ao Wi-fi,Acesso ao Wi-fi,Portal e Sistemas,palavra-chave: 'wi-fi',False
+"Acesso ao VPN FECAP (Economática, Bases de Dados da Biblioteca)","Acesso ao VPN FECAP (Economática, Bases de Dados da Biblioteca)",Portal e Sistemas,palavra-chave: 'vpn',False
+Transferência de disciplinas Eletivas,Transferência de disciplinas Eletivas,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'transferencia',False
+Programa de Bolsa Restituível - Encerramento/Suspensão,Programa de Bolsa Restituível - Encerramento/Suspensão,"Financeiro, Bolsas e Financiamento",palavra-chave: 'restitui',False
+Atendimento de Primeiros Socorros,Atendimento de Primeiros Socorros,Atendimento Geral e Serviços do Campus,palavra-chave: 'socorros',False
+Eventos - Locação de Espaço,Eventos - Locação de Espaço,Atendimento Geral e Serviços do Campus,palavra-chave: 'evento',False
+Análise de Grade (Certidão de estudos),Análise de Grade (Certidão de estudos),Documentação Acadêmica,palavra-chave: 'certidao',False
+Eventos - Divulgação do Calendário de Eventos,Eventos - Divulgação do Calendário de Eventos,Atendimento Geral e Serviços do Campus,palavra-chave: 'evento',False
+"Indisponibilidade de serviços on-line (Portal do Aluno, Wi-fi, Office 365, Moodle)","Indisponibilidade de serviços on-line (Portal do Aluno, Wi-fi, Office 365, Moodle)",Portal e Sistemas,palavra-chave: 'portal',False
+"Manutenção de recursos audiovisuais ou tecnológicos em ambientes de estudos (sala de aula, Sala de Negociações, Colaboração, Teatro, etc.)","Manutenção de recursos audiovisuais ou tecnológicos em ambientes de estudos (sala de aula, Sala de Negociações, Colaboração, Teatro, etc.)",Atendimento Geral e Serviços do Campus,palavra-chave: 'manutencao',False
+Portal do Aluno - Serviço Não Localizado,Portal do Aluno - Serviço Não Localizado,Portal e Sistemas,palavra-chave: 'portal',False
+Cancelamento de Antecipação,Cancelamento de Antecipação,Vida Acadêmica e Avaliações,palavra-chave: 'antecipacao',False
+Cadastro de Alumni Alvarista (Ex-aluno),Cadastro de Alumni Alvarista (Ex-aluno),"Estágio, Carreira e Atividades Complementares",palavra-chave: 'alumni',False
+Emissão Mensal de Boletos,Emissão Mensal de Boletos,"Financeiro, Bolsas e Financiamento",palavra-chave: 'boleto',False
+Cópia de Documentos Técnico-Científicos (COMUT) - INATIVO (Obsoleto),Cópia de Documentos Técnico-Científicos (COMUT),Documentação Acadêmica,palavra-chave: 'documentos',False
+Transferência de turma,Transferência de turma,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'transferencia',False
+Bolsa Convenção Trabalhista (de Colaboradores),Bolsa Convenção Trabalhista (de Colaboradores),"Financeiro, Bolsas e Financiamento",palavra-chave: 'bolsa',False
+Disciplinas extracurriculares,Disciplinas extracurriculares,Vida Acadêmica e Avaliações,palavra-chave: 'disciplina',False
+FIES - Transferência Interna/Curso,FIES - Transferência Interna/Curso,"Financeiro, Bolsas e Financiamento",palavra-chave: 'fies',False
+Antecipação da Assinatura do Termo de Colação de Grau,Antecipação da Assinatura do Termo de Colação de Grau,Documentação Acadêmica,palavra-chave: 'colacao',False
+FIES - Inscrição,FIES - Inscrição,"Financeiro, Bolsas e Financiamento",palavra-chave: 'fies',False
+Transferência interna de curso (Turmas a partir do 2ºsemestre),Transferência interna de curso (Turmas a partir do 2ºsemestre),"Matrícula, Rematrícula e Trancamento",palavra-chave: 'transferencia',False
+Estágio: Entrega de Documentação,Estágio: Entrega de Documentação,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'estagio',False
+Assinatura de contrato para estágio,Assinatura de contrato para estágio,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'estagio',False
+Curso de Curta Duração e Férias | Isenção de Pagamento para Membros de Coletivos,Curso de Curta Duração e Férias | Isenção de Pagamento para Membros de Coletivos,"Financeiro, Bolsas e Financiamento",palavra-chave: 'pagamento',False
+Histórico Escolar - 2ª via,Histórico Escolar - 2ª via,Documentação Acadêmica,palavra-chave: 'historico escolar',False
+Solicitação de Passe Escolar SPTrans,Solicitação de Passe Escolar SPTrans,Carteirinha e Transporte,palavra-chave: 'passe escolar',False
+Disciplinas Concentradas de Férias,Disciplinas Concentradas de Férias,Vida Acadêmica e Avaliações,palavra-chave: 'disciplina',False
+Prouni: Transferência para Outra Instituição,Prouni: Transferência para Outra Instituição,"Financeiro, Bolsas e Financiamento",palavra-chave: 'prouni',False
+Cancelamento do Curso de Extensão,Cancelamento do Curso de Extensão,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'cancelamento do curso',False
+Solicitação de Exame,Solicitação de Exame,Vida Acadêmica e Avaliações,palavra-chave: 'exame',False
+Solicitação de Passe Escolar EMTU,Solicitação de Passe Escolar EMTU,Carteirinha e Transporte,palavra-chave: 'passe escolar',False
+Solicitação de DP,Solicitação de DP,Vida Acadêmica e Avaliações,palavra-chave: 'dp',False
+Isenção de uma mensalidade devido ao Trancamento,Isenção de uma mensalidade devido ao Trancamento,"Financeiro, Bolsas e Financiamento",manual: isenção de mensalidade,False
+Remanejamento de disciplinas,Remanejamento de disciplinas,Vida Acadêmica e Avaliações,palavra-chave: 'disciplina',False
+Cadastro das Parcelas de DP,Cadastro das Parcelas de DP,"Financeiro, Bolsas e Financiamento",palavra-chave: 'parcela',False
+Tour de boas-vindas à FECAP,Tour de boas-vindas à FECAP,Atendimento Geral e Serviços do Campus,palavra-chave: 'tour',False
+Reunião com a Coordenação de Curso,Reunião com a Coordenação de Curso,Vida Acadêmica e Avaliações,manual: coordenação de curso,False
+Bolsa Convênio com Organizações Parceiras,Bolsa Convênio com Organizações Parceiras,"Financeiro, Bolsas e Financiamento",palavra-chave: 'bolsa',False
+Colação de Grau - Informações,Colação de Grau - Informações,Documentação Acadêmica,palavra-chave: 'colacao',False
+Certificado de Conclusão - Latu Sensu,Certificado de Conclusão - Latu Sensu,Documentação Acadêmica,palavra-chave: 'certificado',False
+Modelos de Documentos de Estágio,Modelos de Documentos de Estágio,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'estagio',False
+Bolsa Ingresso Especial (não elegíveis ao Prouni/FIES),Bolsa Ingresso Especial (não elegíveis ao Prouni/FIES),"Financeiro, Bolsas e Financiamento",palavra-chave: 'bolsa',False
+Programa de Intercâmbio,Programa de Intercâmbio,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'intercambio',False
+Ajustes de Matrícula de Ingressante,Ajustes de Matrícula de Ingressante,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'matricula',False
+Trancamento de curso - para cursar antecipação,Trancamento de curso - para cursar antecipação,"Matrícula, Rematrícula e Trancamento",manual: trancamento,False
+Adesão ao Programa de Assistência Financeira,Adesão ao Programa de Assistência Financeira,"Financeiro, Bolsas e Financiamento",palavra-chave: 'financeir',False
+Correção de Documentos,Correção de Documentos,Documentação Acadêmica,palavra-chave: 'documentos',False
+Reclame Aqui,Reclame Aqui,__AMBIGUO__,"manual: canal de manifestação, assunto variável",True
+Solicitação de Transferência,Solicitação de Transferência,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'transferencia',False
+Prouni: Transferência Externa para a FECAP,Prouni: Transferência Externa para a FECAP,"Financeiro, Bolsas e Financiamento",palavra-chave: 'prouni',False
+Colação de Grau - Retirada de Convites,Colação de Grau - Retirada de Convites,Documentação Acadêmica,palavra-chave: 'colacao',False
+Alteração de Disciplinas,Alteração de Disciplinas,Vida Acadêmica e Avaliações,palavra-chave: 'disciplina',False
+Retirada de Documentos,Retirada de Documentos,Documentação Acadêmica,palavra-chave: 'documentos',False
+Retirada de carteirinha da FECAP,Retirada de carteirinha da FECAP,Carteirinha e Transporte,palavra-chave: 'carteirinha',False
+Certificado de Conclusão - Latu Senso - 2ª via,Certificado de Conclusão - Latu Senso - 2ª via,Documentação Acadêmica,palavra-chave: 'certificado',False
+Diploma - 2ª via,Diploma - 2ª via,Documentação Acadêmica,palavra-chave: 'diploma',False
+Entrega de Trabalho de Conclusão de Curso,Entrega de Trabalho de Conclusão de Curso,"Estágio, Carreira e Atividades Complementares",manual: TCC,False
+Solicitação de Disciplina Eletiva,Solicitação de Disciplina Eletiva,Vida Acadêmica e Avaliações,palavra-chave: 'disciplina',False
+Alteração de Responsável Financeiro para Empresa,Alteração de Responsável Financeiro para Empresa,"Financeiro, Bolsas e Financiamento",palavra-chave: 'responsavel financeiro',False
+Apoio Psicológico,Apoio Psicológico,Atendimento Geral e Serviços do Campus,palavra-chave: 'apoio psicologico',False
+Acesso à Biblioteca Digital Catalogus,Acesso à Biblioteca Digital Catalogus,Atendimento Geral e Serviços do Campus,palavra-chave: 'biblioteca',False
+Declaração de Notas,Declaração de Notas,Documentação Acadêmica,palavra-chave: 'declaracao',False
+Trancamento de Disciplina,Trancamento de Disciplina,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'trancamento',False
+FECAP+ Oportunidades | Dificuldade de Acesso,FECAP+ Oportunidades | Dificuldade de Acesso,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'fecap+ oportunidades',False
+Solicitação de Prova substitutiva de P.O,Solicitação de Prova substitutiva de P.O,Vida Acadêmica e Avaliações,palavra-chave: 'prova',False
+Bolsa Monitoria,Bolsa Monitoria,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'monitoria',False
+Declaração de adimplência,Declaração de adimplência,"Financeiro, Bolsas e Financiamento",palavra-chave: 'adimplencia',False
+Prouni: Solicitação de Cancelamento,Prouni: Solicitação de Cancelamento,"Financeiro, Bolsas e Financiamento",palavra-chave: 'prouni',False
+Ouvidoria,Ouvidoria,__AMBIGUO__,"manual: canal de manifestação, assunto variável",True
+Reverter Cancelamento do curso,Reverter Cancelamento do curso,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'cancelamento do curso',False
+Atestado de frequência (Obsoleto),Atestado de frequência,Documentação Acadêmica,palavra-chave: 'atestado',False
+Solicitação Disciplinas de Soft Skills,Solicitação Disciplinas de Soft Skills,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'soft skills',False
+Eventos - Link do Evento para Inscrição,Eventos - Link do Evento para Inscrição,Atendimento Geral e Serviços do Campus,palavra-chave: 'evento',False
+Alunos com baixo desempenho,Alunos com baixo desempenho,__AMBIGUO__,"manual: situação do aluno, não pedido de serviço",True
+Declaração de Conclusão,Declaração de Conclusão,Documentação Acadêmica,palavra-chave: 'declaracao',False
+Negociação por canais de atendimento,Negociação por canais de atendimento,"Financeiro, Bolsas e Financiamento",palavra-chave: 'negociacao',False
+Eventos,Eventos,Atendimento Geral e Serviços do Campus,palavra-chave: 'evento',False
+Office 365 (Obsoleto),Office 365,Portal e Sistemas,palavra-chave: 'office 365',False
+Benefício Bolsa Parente (de Colaboradores),Benefício Bolsa Parente (de Colaboradores),"Financeiro, Bolsas e Financiamento",palavra-chave: 'bolsa',False
+Pagamento Recorrente,Pagamento Recorrente,"Financeiro, Bolsas e Financiamento",palavra-chave: 'pagamento',False
+Sugestões,Sugestões,__AMBIGUO__,manual: assunto variável,True
+Iniciação Científica - Abertura de Edital,Iniciação Científica - Abertura de Edital,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'iniciacao cientifica',False
+Renovação de Bolsas de Estudos,Renovação de Bolsas de Estudos,"Financeiro, Bolsas e Financiamento",palavra-chave: 'bolsa',False
+Empréstimo de Materiais,Empréstimo de Materiais,Atendimento Geral e Serviços do Campus,palavra-chave: 'emprestimo',False
+Pagamento à Vista do Curso,Pagamento à Vista do Curso,"Financeiro, Bolsas e Financiamento",palavra-chave: 'pagamento',False
+Bibliotroca - Feira de Troca de Livros,Bibliotroca - Feira de Troca de Livros,Atendimento Geral e Serviços do Campus,palavra-chave: 'livros',False
+Empréstimo de recursos audiovisuais,Empréstimo de recursos audiovisuais,Atendimento Geral e Serviços do Campus,palavra-chave: 'emprestimo',False
+Autorização para assistir aulas em outro curso,Autorização para assistir aulas em outro curso,__AMBIGUO__,sem regra aplicável,True
+FECAP+ Oportunidades | Cadastro de vaga para empresa parceira,FECAP+ Oportunidades | Cadastro de vaga para empresa parceira,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'fecap+ oportunidades',False
+Crédito de Impressão,Crédito de Impressão,Portal e Sistemas,manual: serviço de TI,False
+Eventos - Solicitação de Certificado,Eventos - Solicitação de Certificado,Documentação Acadêmica,palavra-chave: 'certificado',False
+Autorização para assistir aulas como ouvinte,Autorização para assistir aulas como ouvinte,Vida Acadêmica e Avaliações,palavra-chave: 'ouvinte',False
+Divulgação nos Meios de Comunicação Oficiais da FECAP,Divulgação nos Meios de Comunicação Oficiais da FECAP,Atendimento Geral e Serviços do Campus,palavra-chave: 'divulgacao',False
+Contestação da Bolsa Melhores Alunos,Contestação da Bolsa Melhores Alunos,"Financeiro, Bolsas e Financiamento",palavra-chave: 'bolsa',False
+Inscrição Monitoria,Inscrição Monitoria,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'monitoria',False
+Entrega de Trabalho e Solicitação Diploma,Entrega de Trabalho e Solicitação Diploma,Documentação Acadêmica,manual: diploma,False
+Bolsa Ex-Aluno,Bolsa Ex-Aluno,"Financeiro, Bolsas e Financiamento",palavra-chave: 'bolsa',False
+Prouni: Concessão (vagas remanescentes),Prouni: Concessão (vagas remanescentes),"Financeiro, Bolsas e Financiamento",palavra-chave: 'prouni',False
+FIES - Aditamento para Renovação,FIES - Aditamento para Renovação,"Financeiro, Bolsas e Financiamento",palavra-chave: 'fies',False
+Declarações Financeiras,Declarações Financeiras,"Financeiro, Bolsas e Financiamento",palavra-chave: 'financeir',False
+FECAP+ Oportunidades | Dificuldade de Acesso por Empresa,FECAP+ Oportunidades | Dificuldade de Acesso por Empresa,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'fecap+ oportunidades',False
+Construção do Currículo do Futuro,Construção do Currículo do Futuro,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'curriculo',False
+Participação no CONSEG (Conselho Comunitário de Segurança),Participação no CONSEG (Conselho Comunitário de Segurança),Atendimento Geral e Serviços do Campus,palavra-chave: 'conseg',False
+Ouvinte FECAP+,Ouvinte FECAP+,Vida Acadêmica e Avaliações,palavra-chave: 'ouvinte',False
+Prouni: Concessão (lista de espera),Prouni: Concessão (lista de espera),"Financeiro, Bolsas e Financiamento",palavra-chave: 'prouni',False
+Histórico Escolar,Histórico Escolar,Documentação Acadêmica,palavra-chave: 'historico escolar',False
+Acesso ao Zoom,Acesso ao Zoom,Portal e Sistemas,palavra-chave: 'zoom',False
+Prouni: Comunicação sobre Encerramento,Prouni: Comunicação sobre Encerramento,"Financeiro, Bolsas e Financiamento",palavra-chave: 'prouni',False
+Programa de Bolsa Restituível - Prorrogação do Prazo,Programa de Bolsa Restituível - Prorrogação do Prazo,"Financeiro, Bolsas e Financiamento",palavra-chave: 'restitui',False
+Bolsa Familiar (de Estudante),Bolsa Familiar (de Estudante),"Financeiro, Bolsas e Financiamento",palavra-chave: 'bolsa',False
+Reserva de Materiais,Reserva de Materiais,Atendimento Geral e Serviços do Campus,palavra-chave: 'reserva',False
+Alteração de gênero no registro de matrícula,Alteração de gênero no registro de matrícula,Atendimento Geral e Serviços do Campus,manual: dados cadastrais,False
+Cancelamento do Parcelamento FECAP,Cancelamento do Parcelamento FECAP,"Financeiro, Bolsas e Financiamento",palavra-chave: 'parcela',False
+Confecção de Crachá para Acesso Provisório,Confecção de Crachá para Acesso Provisório,Carteirinha e Transporte,palavra-chave: 'cracha',False
+FIES - Dilatação do Prazo (Prorrogação),FIES - Dilatação do Prazo (Prorrogação),"Financeiro, Bolsas e Financiamento",palavra-chave: 'fies',False
+FIES - Restituições/Reembolsos,FIES - Restituições/Reembolsos,"Financeiro, Bolsas e Financiamento",palavra-chave: 'restitui',False
+Primeiros Passos para Ingressantes na FECAP,Primeiros Passos para Ingressantes na FECAP,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'ingressante',False
+Procon,Procon,__AMBIGUO__,"manual: canal de manifestação, assunto variável",True
+Cancelamento de Dispensa de Disciplinas,Cancelamento de Dispensa de Disciplinas,Vida Acadêmica e Avaliações,palavra-chave: 'dispensa',False
+Orientações a Recursos de Pesquisas,Orientações a Recursos de Pesquisas,Atendimento Geral e Serviços do Campus,palavra-chave: 'recursos de pesquisas',False
+Confecção de Crachá de Visitante (para Estudantes Não Rematriculados),Confecção de Crachá de Visitante (para Estudantes Não Rematriculados),Carteirinha e Transporte,manual: crachá de acesso,False
+Curso de Libras,Curso de Libras,Vida Acadêmica e Avaliações,palavra-chave: 'libras',False
+Cadastro de empresa na FECAP+ Oportunidades,Cadastro de empresa na FECAP+ Oportunidades,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'fecap+ oportunidades',False
+Reserva de Vaga de Estacionamento para Pessoa com Deficiência (PcD),Reserva de Vaga de Estacionamento para Pessoa com Deficiência (PcD),Atendimento Geral e Serviços do Campus,palavra-chave: 'reserva',False
+Prouni: Inscrição- 1ª e 2ª Chamadas,Prouni: Inscrição- 1ª e 2ª Chamadas,"Financeiro, Bolsas e Financiamento",palavra-chave: 'prouni',False
+Aproveitamento de Disciplinas,Aproveitamento de Disciplinas,Vida Acadêmica e Avaliações,palavra-chave: 'disciplina',False
+Laboratório de Métodos Quantitativos,Laboratório de Métodos Quantitativos,Vida Acadêmica e Avaliações,palavra-chave: 'metodos quantitativos',False
+Empréstimo de recursos tecnológicos,Empréstimo de recursos tecnológicos,Atendimento Geral e Serviços do Campus,palavra-chave: 'emprestimo',False
+Eventos - Publicação de Notícia,Eventos - Publicação de Notícia,Atendimento Geral e Serviços do Campus,palavra-chave: 'evento',False
+Solicitação de Certificado Físico,Solicitação de Certificado Físico,Documentação Acadêmica,palavra-chave: 'certificado',False
+PEIEX | Participação em Grupos de Estudos,PEIEX | Participação em Grupos de Estudos,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'peiex',False
+English Corner,English Corner,Vida Acadêmica e Avaliações,palavra-chave: 'english corner',False
+Isenção/Abono de Mensalidade (Obsoleto),Isenção/Abono de Mensalidade,"Financeiro, Bolsas e Financiamento",palavra-chave: 'mensalidade',False
+Disponibilização do número de matrícula,Disponibilização do número de matrícula,Atendimento Geral e Serviços do Campus,manual: dados cadastrais,False
+FIES - Transferência de Instituição,FIES - Transferência de Instituição,"Financeiro, Bolsas e Financiamento",palavra-chave: 'fies',False
+Cadastro de Senha,Cadastro de Senha,Portal e Sistemas,manual: credenciais de sistemas,False
+Programa de Bolsa Restituível - Quitação Antecipada,Programa de Bolsa Restituível - Quitação Antecipada,"Financeiro, Bolsas e Financiamento",palavra-chave: 'restitui',False
+Validação de Cartão de Ex-aluno,Validação de Cartão de Ex-aluno,__AMBIGUO__,sem regra aplicável,True
+Pagamento de Multas,Pagamento de Multas,"Financeiro, Bolsas e Financiamento",palavra-chave: 'pagamento',False
+Inclusão de Nome Social do Estudante na Matricula,Inclusão de Nome Social do Estudante na Matricula,Atendimento Geral e Serviços do Campus,manual: dados cadastrais,False
+Entrega de documentos para Ingresso Especial,Entrega de documentos para Ingresso Especial,"Matrícula, Rematrícula e Trancamento",manual: documentação de ingresso,False
+Orientação para Construção de Currículo,Orientação para Construção de Currículo,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'curriculo',False
+Laboratórios de Português e Inglês,Laboratórios de Português e Inglês,Vida Acadêmica e Avaliações,palavra-chave: 'laboratorios de portugues',False
+Extensão | Abono de valores em novo curso (Obsoleto),Extensão | Abono de valores em novo curso,"Financeiro, Bolsas e Financiamento",palavra-chave: 'abono de valores',False
+Bolsa Santander,Bolsa Santander,"Financeiro, Bolsas e Financiamento",palavra-chave: 'bolsa',False
+Manutenção de infraestrutura física,Manutenção de infraestrutura física,Atendimento Geral e Serviços do Campus,palavra-chave: 'manutencao',False
+Iniciação Científica - Workshop de Iniciação Científica,Iniciação Científica - Workshop de Iniciação Científica,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'iniciacao cientifica',False
+Tradução juramentada do Histórico Escolar,Tradução juramentada do Histórico Escolar,Documentação Acadêmica,palavra-chave: 'historico escolar',False
+Disciplina Indisponível no Moodle (Obsoleto),Disciplina Indisponível no Moodle,Portal e Sistemas,palavra-chave: 'moodle',False
+Alteração de Dados Cadastrais (Obsoleto),Alteração de Dados Cadastrais,Atendimento Geral e Serviços do Campus,manual: cadastro,False
+Confecção da Carteirinha da FECAP (Obsoleto),Confecção da Carteirinha da FECAP,Carteirinha e Transporte,palavra-chave: 'carteirinha',False
+Restituições (Obsoleto),Restituições,"Financeiro, Bolsas e Financiamento",palavra-chave: 'restitui',False
+Solicitação de Passe Escolar SPTrans (Obsoleto),Solicitação de Passe Escolar SPTrans,Carteirinha e Transporte,palavra-chave: 'passe escolar',False
+Cancelamento de Curso (Obsoleto),Cancelamento de Curso,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'cancelamento de curso',False
+Alteração de Contrato de Prestação de Serviços (Obsoleto),Alteração de Contrato de Prestação de Serviços,"Financeiro, Bolsas e Financiamento",palavra-chave: 'contrato de prestacao',False
+Solicitação de Boleto (Obsoleto),Solicitação de Boleto,"Financeiro, Bolsas e Financiamento",palavra-chave: 'boleto',False
+Atestado Personalizado (Obsoleto),Atestado Personalizado,Documentação Acadêmica,palavra-chave: 'atestado',False
+Curso de Curta Duração e Férias | Isenção de Pagamento para Membros de Coletivos - INATIVO (Obsoleto),Curso de Curta Duração e Férias | Isenção de Pagamento para Membros de Coletivos,"Financeiro, Bolsas e Financiamento",palavra-chave: 'pagamento',False
+Trancamento do Curso (Obsoleto),Trancamento do Curso,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'trancamento',False
+Iniciação Científica - Abertura de Edital (Obsoleto),Iniciação Científica - Abertura de Edital,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'iniciacao cientifica',False
+Cadastro das Parcelas de DP (Obsoleto),Cadastro das Parcelas de DP,"Financeiro, Bolsas e Financiamento",palavra-chave: 'parcela',False
+Confecção da Carteirinha - 2ª Via (Obsoleto),Confecção da Carteirinha - 2ª Via,Carteirinha e Transporte,palavra-chave: 'carteirinha',False
+Acesso ao Email Fecap (Obsoleto),Acesso ao Email Fecap,Portal e Sistemas,palavra-chave: 'email',False
+Extensão - Abono de Valores em Novos Cursos (Obsoleto),Extensão - Abono de Valores em Novos Cursos,"Financeiro, Bolsas e Financiamento",palavra-chave: 'abono de valores',False
+Trancamento de Curso - Pós (Obsoleto),Trancamento de Curso - Pós,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'trancamento',False
+Disciplinas Isoladas (Alunos Estrangeiros),Disciplinas Isoladas (Alunos Estrangeiros),Vida Acadêmica e Avaliações,palavra-chave: 'disciplina',False
+Solicitação de Boleto - Mestrado (Obsoleto),Solicitação de Boleto - Mestrado,"Financeiro, Bolsas e Financiamento",palavra-chave: 'boleto',False
+Dificuldades p/ Realizar Provas e Exames Online (Obsoleto),Dificuldades p/ Realizar Provas e Exames Online,Portal e Sistemas,palavra-chave: 'online',False
+Disciplinas Isoladas (Ex- alunos),Disciplinas Isoladas (Ex- alunos),Vida Acadêmica e Avaliações,palavra-chave: 'disciplina',False
+Prouni: Vagas por Curso,Prouni: Vagas por Curso,"Financeiro, Bolsas e Financiamento",palavra-chave: 'prouni',False
+Bolsa Estágio,Bolsa Estágio,"Financeiro, Bolsas e Financiamento",manual: modalidade de bolsa (fronteira com Estágio),False
+Levantamento Bibliográfico,Levantamento Bibliográfico,Atendimento Geral e Serviços do Campus,palavra-chave: 'levantamento bibliografico',False
+Acesso a Imagens de Câmeras de Segurança,Acesso a Imagens de Câmeras de Segurança,Atendimento Geral e Serviços do Campus,palavra-chave: 'cameras',False
+Coletivos - Edição do Site,Coletivos - Edição do Site,Atendimento Geral e Serviços do Campus,palavra-chave: 'coletivos',False
+Cancelamento de débito automático (Obsoleto),Cancelamento de débito automático,"Financeiro, Bolsas e Financiamento",palavra-chave: 'debito',False
+Disciplinas Isoladas (Aluno de Instituições Parceiras e Não-Parceiras),Disciplinas Isoladas (Aluno de Instituições Parceiras e Não-Parceiras),Vida Acadêmica e Avaliações,palavra-chave: 'disciplina',False
+Não Compareceu ao Atendimento,Não Compareceu ao Atendimento,__NAO_ASSUNTO__,"manual: descreve resultado do atendimento, não assunto",False
+Declaração de Escolaridade,Declaração de Escolaridade,Documentação Acadêmica,palavra-chave: 'declaracao',False
+Contato não realizado,Contato não realizado,__NAO_ASSUNTO__,"manual: descreve resultado do atendimento, não assunto",False
+Solicitação do contrato de prestação de serviços,Solicitação do contrato de prestação de serviços,"Financeiro, Bolsas e Financiamento",palavra-chave: 'contrato de prestacao',False
+Devolução de Materiais,Devolução de Materiais,Atendimento Geral e Serviços do Campus,palavra-chave: 'materiais',False
+Doações de Livros para a Biblioteca,Doações de Livros para a Biblioteca,Atendimento Geral e Serviços do Campus,palavra-chave: 'biblioteca',False
+Convênio com Empresas para Estágio,Convênio com Empresas para Estágio,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'estagio',False
+Atendimento Cancelado,Atendimento Cancelado,__NAO_ASSUNTO__,"manual: descreve resultado do atendimento, não assunto",False
+Limpeza de áreas comuns e salas de aula,Limpeza de áreas comuns e salas de aula,Atendimento Geral e Serviços do Campus,palavra-chave: 'limpeza',False
+Suspensão do Parcelamento FECAP,Suspensão do Parcelamento FECAP,"Financeiro, Bolsas e Financiamento",palavra-chave: 'parcela',False
+Empréstimo de Chaves para Membros de Organizações Estudantis,Empréstimo de Chaves para Membros de Organizações Estudantis,Atendimento Geral e Serviços do Campus,palavra-chave: 'emprestimo',False
+Orientações às Normas ABNT/APA,Orientações às Normas ABNT/APA,Atendimento Geral e Serviços do Campus,palavra-chave: 'abnt',False
+Manutenção de elevador,Manutenção de elevador,Atendimento Geral e Serviços do Campus,palavra-chave: 'manutencao',False
+Apoio Externo no Entorno,Apoio Externo no Entorno,Atendimento Geral e Serviços do Campus,palavra-chave: 'entorno',False
+Adesão ao Programa Parcelamento FECAP,Adesão ao Programa Parcelamento FECAP,"Financeiro, Bolsas e Financiamento",palavra-chave: 'parcela',False
+Instituto de Finanças | NAF - Inscrição para Trabalho Voluntário IRPF,Instituto de Finanças | NAF - Inscrição para Trabalho Voluntário IRPF,"Estágio, Carreira e Atividades Complementares",palavra-chave: 'naf',False
+Reverter Cancelamento,Reverter Cancelamento,"Matrícula, Rematrícula e Trancamento",palavra-chave: 'reverter cancelamento',False

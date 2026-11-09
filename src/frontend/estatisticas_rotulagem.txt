@@ -1,0 +1,41 @@
+ESTATÍSTICAS DE ROTULAGEM — ENTREGA 2 IA
+==================================================
+
+Arquivo fonte: C:\Users\LENOVO\Downloads\Relacionamentos.xlsx
+Total de registros: 96,628
+Motivos únicos (original): 319
+
+Distribuição de MOTIVOS ÚNICOS por categoria:
+  Financeiro, Bolsas e Financiamento: 81
+  Atendimento Geral e Serviços do Campus: 47
+  Vida Acadêmica e Avaliações: 45
+  Estágio, Carreira e Atividades Complementares: 34
+  Documentação Acadêmica: 34
+  Matrícula, Rematrícula e Trancamento: 29
+  Portal e Sistemas: 22
+  Carteirinha e Transporte: 15
+  __AMBIGUO__: 9 [EXCLUÍDO]
+  __NAO_ASSUNTO__: 3 [EXCLUÍDO]
+
+Registros no dataset de treino: 83,215
+Registros excluídos: 13,413
+
+Distribuição de REGISTROS por categoria (treino):
+  Estágio, Carreira e Atividades Complementares: 15,694 (18.9%)
+  Vida Acadêmica e Avaliações: 14,166 (17.0%)
+  Matrícula, Rematrícula e Trancamento: 13,122 (15.8%)
+  Financeiro, Bolsas e Financiamento: 12,626 (15.2%)
+  Carteirinha e Transporte: 10,335 (12.4%)
+  Documentação Acadêmica: 6,850 (8.2%)
+  Portal e Sistemas: 6,301 (7.6%)
+  Atendimento Geral e Serviços do Campus: 4,121 (5.0%)
+
+Motivos únicos por categoria (treino):
+  Financeiro, Bolsas e Financiamento: 76
+  Atendimento Geral e Serviços do Campus: 47
+  Vida Acadêmica e Avaliações: 45
+  Documentação Acadêmica: 33
+  Estágio, Carreira e Atividades Complementares: 32
+  Matrícula, Rematrícula e Trancamento: 27
+  Portal e Sistemas: 21
+  Carteirinha e Transporte: 13
