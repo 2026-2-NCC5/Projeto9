@@ -1,0 +1,43 @@
+{
+  "status": "CONCLUIDO",
+  "sqlite": {
+    "integrity_check": "ok",
+    "foreign_key_violations": 0,
+    "table_counts": {
+      "users": 3,
+      "knowledge_documents": 30,
+      "students": 2,
+      "conversations": 105,
+      "audit_logs": 841,
+      "messages": 216,
+      "handoff_tickets": 37,
+      "feedbacks": 16,
+      "human_validations": 12,
+      "boletos": 7
+    },
+    "hash_backup": "85e89ffa45485b111cad30921d4b36c2f83471d7ad78b47c6d4377fe17578f44",
+    "hash_restored": "85e89ffa45485b111cad30921d4b36c2f83471d7ad78b47c6d4377fe17578f44",
+    "hashes_match": true
+  },
+  "chromadb": {
+    "status": "VALIDADO_EM_AMBIENTE_ISOLADO",
+    "chromadb_version": "1.5.9",
+    "python_environment": "fecap-guia/.venv/Scripts/python.exe",
+    "chroma_sqlite_integrity_check": "ok",
+    "hash_snapshot_chroma_sqlite3": "a0187c377409fb7bef4cf8030a5552ff82573fcd96f3d42f625b52f8c9322288",
+    "hash_restored_chroma_sqlite3": "a0187c377409fb7bef4cf8030a5552ff82573fcd96f3d42f625b52f8c9322288",
+    "hashes_match": true,
+    "collections_count": 1,
+    "collections": [
+      {
+        "name": "fecap_knowledge",
+        "count": 55,
+        "sample_ids": [
+          "899b2238-caef-487b-83d2-6e1ea476a9c0_chunk_0",
+          "899b2238-caef-487b-83d2-6e1ea476a9c0_chunk_1"
+        ]
+      }
+    ],
+    "note_host_global_python": "No interpretador Python global do host (fora do .venv e do contêiner), a chamada sem ambiente virtual retornava 'No module named chromadb'."
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "timestamp": "2026-11-02T14:36:11Z",
+  "telemetry_initial": {
+    "fecap_guia_frontend": {
+      "cpu": "0.00%",
+      "mem_usage": "5.836MiB / 7.692GiB",
+      "mem_perc": "0.07%"
+    },
+    "fecap_guia_backend": {
+      "cpu": "0.33%",
+      "mem_usage": "412.6MiB / 7.692GiB",
+      "mem_perc": "5.24%"
+    },
+    "buildx_buildkit_default": {
+      "cpu": "0.01%",
+      "mem_usage": "680.5MiB / 7.692GiB",
+      "mem_perc": "8.64%"
+    }
+  },
+  "telemetry_after_load": {
+    "fecap_guia_frontend": {
+      "cpu": "0.00%",
+      "mem_usage": "6.105MiB / 7.692GiB",
+      "mem_perc": "0.08%"
+    },
+    "fecap_guia_backend": {
+      "cpu": "0.38%",
+      "mem_usage": "425.7MiB / 7.692GiB",
+      "mem_perc": "5.40%"
+    },
+    "buildx_buildkit_default": {
+      "cpu": "0.04%",
+      "mem_usage": "680.5MiB / 7.692GiB",
+      "mem_perc": "8.64%"
+    }
+  },
+  "scenarios": [
+    {
+      "scenario": "Healthcheck",
+      "endpoint": "/health",
+      "concurrency": 5,
+      "total_requests": 50,
+      "total_time_seconds": 0.157,
+      "throughput_rps": 317.84,
+      "avg_latency_ms": 14.54,
+      "p50_latency_ms": 10.55,
+      "p95_latency_ms": 32.77,
+      "p99_latency_ms": 36.68,
+      "error_count": 0,
+      "error_rate_perc": 0.0,
+      "status_distribution": {
+        "200": 50
+      }
+    },
+    {
+      "scenario": "Perfil Estudante",
+      "endpoint": "/api/v1/student/profile",
+      "concurrency": 5,
+      "total_requests": 40,
+      "total_time_seconds": 0.756,
+      "throughput_rps": 52.9,
+      "avg_latency_ms": 91.52,
+      "p50_latency_ms": 83.32,
+      "p95_latency_ms": 169.2,
+      "p99_latency_ms": 200.16,
+      "error_count": 0,
+      "error_rate_perc": 0.0,
+      "status_distribution": {
+        "200": 40
+      }
+    },
+    {
+      "scenario": "Boletos Pendentes",
+      "endpoint": "/api/v1/boletos/pending",
+      "concurrency": 5,
+      "total_requests": 30,
+      "total_time_seconds": 6.73,
+      "throughput_rps": 4.46,
+      "avg_latency_ms": 1052.37,
+      "p50_latency_ms": 711.38,
+      "p95_latency_ms": 3048.37,
+      "p99_latency_ms": 3472.26,
+      "error_count": 0,
+      "error_rate_perc": 0.0,
+      "status_distribution": {
+        "200": 30
+      }
+    },
+    {
+      "scenario": "RAG Acadêmico (C=2)",
+      "endpoint": "/api/v1/agent/query",
+      "concurrency": 2,
+      "total_requests": 10,
+      "total_time_seconds": 7.188,
+      "throughput_rps": 1.39,
+      "avg_latency_ms": 1357.01,
+      "p50_latency_ms": 1270.83,
+      "p95_latency_ms": 2330.79,
+      "p99_latency_ms": 2330.79,
+      "error_count": 0,
+      "error_rate_perc": 0.0,
+      "status_distribution": {
+        "200": 10
+      }
+    },
+    {
+      "scenario": "RAG Acadêmico (C=5)",
+      "endpoint": "/api/v1/agent/query",
+      "concurrency": 5,
+      "total_requests": 20,
+      "total_time_seconds": 13.087,
+      "throughput_rps": 1.53,
+      "avg_latency_ms": 2992.26,
+      "p50_latency_ms": 2351.63,
+      "p95_latency_ms": 7740.53,
+      "p99_latency_ms": 7740.53,
+      "error_count": 0,
+      "error_rate_perc": 0.0,
+      "status_distribution": {
+        "200": 20
+      }
+    }
+  ],
+  "dashboard_metrics": {
+    "total_questions": 117,
+    "total_answers": 99,
+    "answers_with_evidence_rate": 99.0,
+    "positive_feedback_rate": 100.0,
+    "handoffs_count": 37,
+    "unanswered_count": 1,
+    "avg_response_time_ms": 0,
+    "active_documents_count": 8,
+    "validations_count": 12,
+    "top_categories": [
+      {
+        "category": "documentos",
+        "count": 16
+      },
+      {
+        "category": "financeiro",
+        "count": 11
+      },
+      {
+        "category": "matricula",
+        "count": 9
+      },
+      {
+        "category": "abstencao_sem_evidencia",
+        "count": 1
+      },
+      {
+        "category": "academico",
+        "count": 1
+      }
+    ],
+    "questions_per_day": [
+      {
+        "date": "01/11",
+        "count": 53
+      },
+      {
+        "date": "02/11",
+        "count": 64
+      }
+    ]
+  }
+}
