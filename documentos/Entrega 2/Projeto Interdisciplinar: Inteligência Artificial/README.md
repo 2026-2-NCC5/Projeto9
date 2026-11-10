@@ -1,4 +1,4 @@
-# ENTREGA 2 — SISTEMAS OPERACIONAIS E COMPUTAÇÃO EM NUVEM (FECAP)
+# ENTREGA 2 — Projeto Interdisciplinar: Inteligência Artificial (FECAP)
 ## Projeto: SecretarIA — Agente Inteligente de Orientação ao Estudante
 ### Instituição: FECAP — Fundação Escola de Comércio Álvares Penteado
 
