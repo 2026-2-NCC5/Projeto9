@@ -1,0 +1,14 @@
+[project]
+name = "app"
+version = "0.1.0"
+dependencies = [
+ "fastapi",
+ "uvicorn",
+ "pydantic",
+ "google-genai",
+ "pypdf",
+ "reportlab",
+ "python-dotenv",
+ "email-validator>=2.0.0",
+]
+requires-python = "~=3.13.0"
