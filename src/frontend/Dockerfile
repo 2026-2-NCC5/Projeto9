@@ -1,4 +1,4 @@
-﻿FROM node:20-alpine AS builder
+FROM node:20-alpine AS builder
 
 WORKDIR /app
 
@@ -6,11 +6,17 @@ COPY package*.json ./
 RUN npm ci
 
 COPY . .
+ARG VITE_API_URL=
+ENV VITE_API_URL=$VITE_API_URL
 RUN npm run build
 
 # Production server
 FROM nginx:alpine
+ARG NGINX_CONF=nginx.conf
 COPY --from=builder /app/dist /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-EXPOSE 5173
+COPY ${NGINX_CONF} /etc/nginx/conf.d/default.conf
+EXPOSE 5173 80 443
+HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=3 \
+    CMD wget -q -O /dev/null http://127.0.0.1:5173/ || wget -q -O /dev/null http://127.0.0.1:80/ || exit 1
 CMD ["nginx", "-g", "daemon off;"]
+
